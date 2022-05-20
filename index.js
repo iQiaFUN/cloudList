@@ -8,7 +8,7 @@ function checkFile(file, text) {
     }
 }
 
-checkFile("config.json", tmpcfg);
+checkFile("config.json", JSON.stringify(tmpcfg, null, '\t'));
 const cfg = JSON.parse(NIL.IO.readFrom(path.join(__dirname, 'config.json')));
 const token = cfg.token;
 const server = cfg.server;
