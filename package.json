@@ -1,14 +1,22 @@
 {
   "name": "cloudlist",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "iQiaFUN",
-  "license": "ISC",
+  "license": "AGPL-3.0",
   "dependencies": {
     "axios": "^0.27.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iQiaFUN/cloudlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iQiaFUN/cloudlist/issues"
+  },
+  "homepage": "https://github.com/iQiaFUN/cloudlist#readme"
 }

@@ -1,6 +1,11 @@
 {
     "token":"",
     "uuid":"",
-    "server":"iQiaFUN",
-    "cmd":"申请云端白名单"
+    "server":"",
+    "upload":"/cl+",
+    "delete":"/cl-",
+    "autoCMD": "申请云端白名单",
+    "auto_CL": true,
+    "auto_UP": true,
+    "auto_DEL": true
 }
